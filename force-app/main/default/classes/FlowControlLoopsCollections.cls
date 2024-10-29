@@ -304,8 +304,8 @@ public with sharing class FlowControlLoopsCollections {
     public static Set<String> createStringSet(List<String> inputList) {
         
         Set<String> stringSet = new Set<String>();
-            for (String A : inputList){
-        stringSet.add(A);
+            for (String a : inputList){
+        stringSet.add(a);
         }
         return stringSet; 
     }
